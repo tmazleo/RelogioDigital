@@ -1,0 +1,56 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #636363;
+}
+.h1d {
+    margin: 2em 30%;
+    width: 60vw;
+}
+h1{
+    font-weight: 700;
+}
+.clock-container {
+    background: #424040;
+    width: 60vw;
+    height: 40vh;
+    margin: 5% auto 0;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px #272727;
+    display: block;
+}
+.spans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span {
+    font-size: 3em;
+    margin: 0 .2em;
+    margin-top: 2em;
+    color: #51d36d;
+    text-shadow:  -1px 1px #242424, -1.2px 1.2px #1f1f1f,
+     -1.3px 1.3px #181818, -1.4px 1.4px #161616;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: #154115;
+    
+}
+h3{
+    margin: 0 20%;
+    width: 12vw;
+}
+.redes {
+    margin : 0 0 0 17%;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #51d36d;
+}
+a:hover {
+    color: #d4eeda;
+}
